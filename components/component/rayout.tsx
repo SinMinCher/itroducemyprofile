@@ -27,7 +27,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 
-export function rayout() {
+export function Layout() {
   return (
     <main className="flex flex-col gap-12 md:gap-16 lg:gap-20">
       <section className="w-full py-12 md:py-24 lg:py-32">
