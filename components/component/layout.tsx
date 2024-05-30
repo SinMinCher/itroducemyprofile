@@ -148,8 +148,7 @@ export function Layout() {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Have a project in mind or just want to say hello? Fill out the form below, and I'll get back to you as
-              soon as possible.
+              ㅎㅎㅎㅎ
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
