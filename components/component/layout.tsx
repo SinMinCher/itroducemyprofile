@@ -31,7 +31,7 @@ export function Layout() {
   return (
     <main className="flex flex-col items-center gap-12 md:gap-16 lg:gap-20">
       <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
-        <div className="container grid items-center justify-center gap-6 px-4 text-center md:px-6 lg:grid-cols-2 lg:gap-12 lg:text-left">
+        <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-6 px-4 text-center md:px-6 lg:grid-cols-2 lg:gap-12 lg:text-left">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">John Doe</h1>
             <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">Game Designer</h2>
@@ -51,7 +51,7 @@ export function Layout() {
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex justify-center">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:grid-cols-3 lg:gap-8">
+        <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:grid-cols-3 lg:gap-8">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Featured Projects</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -102,7 +102,7 @@ export function Layout() {
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:grid-cols-2 lg:gap-12 lg:text-left">
+        <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:grid-cols-2 lg:gap-12 lg:text-left">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills and Experience</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:mx-0 lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -144,7 +144,7 @@ export function Layout() {
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 border-t flex justify-center">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+        <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -169,6 +169,7 @@ export function Layout() {
     </main>
   );
 }
+
 
 
 function MenuIcon(props) {
