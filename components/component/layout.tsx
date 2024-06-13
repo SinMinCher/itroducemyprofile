@@ -35,7 +35,7 @@ export function Layout() {
           <div className="space-y-4 text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">John Doe</h1>
             <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">Game Designer</h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:mx-0 lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               With over 10 years of experience in the gaming industry, I have designed award-winning games that have
               captivated audiences worldwide. My passion for creating immersive and engaging experiences is at the heart
               of everything I do.
