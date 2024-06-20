@@ -7,19 +7,18 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
         <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-6 px-4 text-center md:px-6">
           <div className="space-y-4 text-center">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">John Doe</h1>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Shin min cher</h1>
             <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">Game Designer</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              With over 10 years of experience in the gaming industry, I have designed award-winning games that have
-              captivated audiences worldwide. My passion for creating immersive and engaging experiences is at the heart
-              of everything I do.
+              I participated in 4 projects at Sogang mtec.
+              I did balance design in the first project, skill content design in the second project, and I am currently planning to submit it to GIGDC in charge of main planning in the third project.
             </p>
           </div>
           <img
             alt="Hero"
             className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
             height="550"
-            src="/placeholder.svg"
+            src="/images/pro.png"
             width="550"
           />
         </div>
@@ -27,9 +26,9 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex justify-center">
         <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Featured Projects</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">A Participate Projects</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Explore a selection of my most acclaimed game designs.
+              List of production projects.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
@@ -38,12 +37,12 @@ export default function Home() {
                 alt="Game 1"
                 className="mb-4 aspect-video w-full rounded-md object-cover"
                 height="300"
-                src="/placeholder.svg"
+                src="/images/projectking.png"
                 width="400"
               />
-              <h3 className="text-lg font-semibold">Cosmic Odyssey</h3>
+              <h3 className="text-lg font-semibold"> Project kingdoms </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                An immersive space exploration game that takes players on a thrilling journey through the cosmos.
+                RTS like a chess game
               </p>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
@@ -51,12 +50,12 @@ export default function Home() {
                 alt="Game 2"
                 className="mb-4 aspect-video w-full rounded-md object-cover"
                 height="300"
-                src="/placeholder.svg"
+                src="/images/projsctesc.gif"
                 width="400"
               />
-              <h3 className="text-lg font-semibold">Enchanted Realms</h3>
+              <h3 className="text-lg font-semibold"> ESCAPE </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                A fantasy role-playing game that immerses players in a world of magic, adventure, and enchantment.
+                A similar game to Vampire Survival, and took charge of skill design for 3 characters.
               </p>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
@@ -64,12 +63,12 @@ export default function Home() {
                 alt="Game 3"
                 className="mb-4 aspect-video w-full rounded-md object-cover"
                 height="300"
-                src="/placeholder.svg"
+                src="/images/projectHEX.jpg"
                 width="400"
               />
-              <h3 className="text-lg font-semibold">Pixel Playground</h3>
+              <h3 className="text-lg font-semibold"> HEXTEC: entropy </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                A retro-inspired arcade game that challenges players with fast-paced action and vibrant pixel art.
+                He was in charge of the main planning and was in charge of the overall production and sound of the game.
               </p>
             </div>
           </div>
@@ -80,8 +79,7 @@ export default function Home() {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills and Experience</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              I have a diverse set of skills and extensive experience in the gaming industry, allowing me to create
-              exceptional game designs.
+              As a game planner, I have very inexperienced skills, but I will learn related skills using my strengths until graduation
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:gap-8">
@@ -89,8 +87,8 @@ export default function Home() {
               <h3 className="mb-2 text-lg font-semibold">Skills</h3>
               <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
                 <li>Game Design</li>
+                <li>Game content Design</li>
                 <li>Level Design</li>
-                <li>Narrative Design</li>
                 <li>UI/UX Design</li>
                 <li>Prototyping</li>
               </ul>
@@ -99,19 +97,15 @@ export default function Home() {
               <h3 className="mb-2 text-lg font-semibold">Tools</h3>
               <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
                 <li>Unity</li>
-                <li>Unreal Engine</li>
-                <li>Adobe Creative Suite</li>
-                <li>Figma</li>
-                <li>Jira</li>
+                <li>3D Max</li>
+                <li>Microsoft Office</li>
+                <li>Many ai tools</li>
               </ul>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
               <h3 className="mb-2 text-lg font-semibold">Experience</h3>
               <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                <li>10+ years in the gaming industry</li>
-                <li>Designed 5 award-winning games</li>
-                <li>Collaborated with teams of 20+ developers</li>
-                <li>Managed game projects from concept to launch</li>
+                <li>Participate in 4 game projects</li>
               </ul>
             </div>
           </div>
@@ -143,7 +137,6 @@ export default function Home() {
     </main>
   );
 }
-    
 
 function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
@@ -165,4 +158,3 @@ function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
-
