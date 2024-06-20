@@ -11,7 +11,7 @@ export default function Home() {
             <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">Game Designer</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               I participated in 4 projects at Sogang mtec.
-              I did balance design in the first project, skill content design in the second project, and I am currently planning to submit it to GIGDC in charge of main planning in the third project.
+              I did balance design in the first project, skill content design in the second project, and I am currently planning to submit it to GIGDC in charge of main planning in the 4th project.
             </p>
           </div>
           <img
@@ -64,6 +64,19 @@ export default function Home() {
                 className="mb-4 aspect-video w-full rounded-md object-cover"
                 height="300"
                 src="/images/projectHEX.jpg"
+                width="400"
+              />
+              <h3 className="text-lg font-semibold"> Project SP </h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                A text RPG game about space pirates and their journey.
+              </p>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
+              <img
+                alt="Game 2"
+                className="mb-4 aspect-video w-full rounded-md object-cover"
+                height="300"
+                src="/images/prosp.png"
                 width="400"
               />
               <h3 className="text-lg font-semibold"> HEXTEC: entropy </h3>
