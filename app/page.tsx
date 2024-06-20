@@ -63,7 +63,7 @@ export default function Home() {
                 alt="Game 3"
                 className="mb-4 aspect-video w-full rounded-md object-cover"
                 height="300"
-                src="/images/projectHEX.jpg"
+                src="/images/prosp.png"
                 width="400"
               />
               <h3 className="text-lg font-semibold"> Project SP </h3>
@@ -76,7 +76,7 @@ export default function Home() {
                 alt="Game 2"
                 className="mb-4 aspect-video w-full rounded-md object-cover"
                 height="300"
-                src="/images/prosp.png"
+                src="/images/projectHEX.jpg"
                 width="400"
               />
               <h3 className="text-lg font-semibold"> HEXTEC: entropy </h3>
