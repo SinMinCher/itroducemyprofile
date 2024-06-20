@@ -10,7 +10,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">신민철</h1>
             <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">포트폴리오</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              서강mtec에 재학하고 있으며 4개 프로젝트에 참여하였습니다.
+              서강mtec에 게임개발 전공으로 재학하고 있으며 4개 프로젝트에 참여하였습니다.
             </p>
           </div>
           <img
