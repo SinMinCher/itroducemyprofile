@@ -9,10 +9,10 @@ export default function Home() {
           <div className="space-y-4 text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">신민철</h1>
 
-            
+
             <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">포트폴리오</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              서강mtec에 게임개발 전공으로 재학하고 있으며 4개 프로젝트에 참여하였습니다.
+              서강대학교 미래교육원에 게임개발 전공으로 재학하고 있으며 4개 프로젝트에 참여하였습니다.
             </p>
           </div>
           <img
@@ -128,21 +128,21 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 border-t flex justify-center">
         <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">연락주세요</h2>
             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Feel free to reach out to me for any inquiries or collaborations.
+              문의 사항이나 협업이 있으시면 언제든지 저에게 연락하십시오.
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
             <form className="grid gap-2">
               <div className="grid grid-cols-2 gap-2">
-                <input className="p-2 border rounded" placeholder="Name" type="text" />
+                <input className="p-2 border rounded" placeholder="성함" type="text" />
                 <input className="p-2 border rounded" placeholder="Email" type="email" />
               </div>
-              <input className="p-2 border rounded" placeholder="Subject" type="text" />
-              <textarea className="p-2 border rounded" placeholder="Message" rows={4} />
+              <input className="p-2 border rounded" placeholder="제목" type="text" />
+              <textarea className="p-2 border rounded" placeholder="내용" rows={4} />
               <Button className="w-full" type="submit">
-                Send Message
+                메일 보내기
               </Button>
             </form>
           </div>
