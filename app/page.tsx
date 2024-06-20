@@ -7,11 +7,10 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
         <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-6 px-4 text-center md:px-6">
           <div className="space-y-4 text-center">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Shin min cher</h1>
-            <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">Game Designer</h2>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">신민철</h1>
+            <h2 className="text-2xl font-medium text-gray-500 dark:text-gray-400">포트폴리오</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              I participated in 4 projects at Sogang mtec.
-              I did balance design in the first project, skill content design in the second project, and I am currently planning to submit it to GIGDC in charge of main planning in the 4th project.
+              서강mtec에 재학하고 있으며 4개 프로젝트에 참여하였습니다.
             </p>
           </div>
           <img
@@ -26,9 +25,9 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex justify-center">
         <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">A Participate Projects</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">참여한 게임 프로젝트</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              List of production projects.
+              프로젝트 참여 목록
             </p>
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
@@ -42,7 +41,7 @@ export default function Home() {
               />
               <h3 className="text-lg font-semibold"> Project kingdoms </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                RTS like a chess game
+                제스게임을 레퍼런스로 한 RTS게임
               </p>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
@@ -55,7 +54,7 @@ export default function Home() {
               />
               <h3 className="text-lg font-semibold"> ESCAPE </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                A similar game to Vampire Survival, and took charge of skill design for 3 characters.
+                뱀파이어 서바이벌을 레퍼런스로 제작한 게임이며 스킬 디자인 등 작업에 참여
               </p>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
@@ -68,7 +67,7 @@ export default function Home() {
               />
               <h3 className="text-lg font-semibold"> Project SP </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                A text RPG game about space pirates and their journey.
+                우주해적과 그들의 여정에 대한 텍스트RPG게임
               </p>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
@@ -81,7 +80,7 @@ export default function Home() {
               />
               <h3 className="text-lg font-semibold"> HEXTEC: entropy </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                He was in charge of the main planning and was in charge of the overall production and sound of the game.
+                메인기획으로 참여하였으며 전반적 작업지시와 사운드 담당하였음
               </p>
             </div>
           </div>
@@ -90,35 +89,35 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
         <div className="max-w-[1920px] w-full mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills and Experience</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">기술과 경험</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              As a game planner, I have very inexperienced skills, but I will learn related skills using my strengths until graduation
+              현재 미흡하나 졸업 전까지 경험과 기술을 발전시키고 쌓아나갈 계획입니다.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:gap-8">
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold">Skills</h3>
+              <h3 className="mb-2 text-lg font-semibold">기술</h3>
               <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                <li>Game Design</li>
-                <li>Game content Design</li>
-                <li>Level Design</li>
-                <li>UI/UX Design</li>
-                <li>Prototyping</li>
+                <li>게임기획</li>
+                <li>게임 컨텐츠 기획</li>
+                <li>레벨디자인</li>
+                <li>유저 경험 디자인</li>
+                <li>QA작업</li>
               </ul>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold">Tools</h3>
+              <h3 className="mb-2 text-lg font-semibold">사용가능한 툴</h3>
               <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
                 <li>Unity</li>
                 <li>3D Max</li>
                 <li>Microsoft Office</li>
-                <li>Many ai tools</li>
+                
               </ul>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold">Experience</h3>
+              <h3 className="mb-2 text-lg font-semibold">연혁</h3>
               <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                <li>Participate in 4 game projects</li>
+                <li>4개 프로젝트 참여</li>
               </ul>
             </div>
           </div>
