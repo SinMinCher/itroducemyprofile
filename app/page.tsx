@@ -1,21 +1,26 @@
 'use client';
 
+import Head from 'next/head';
 import { Button } from "@/components/ui/button";
 import ScrollButton from "@/components/ScrollButton";
 import { JSX, SVGProps } from "react";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center gap-12 md:gap-16 lg:gap-20">
-      {/* Header Section */}
-      <header className="w-full py-4 bg-gray-200 dark:bg-gray-800 flex justify-between items-center px-4">
-        <h1 className="text-xl font-bold">신민철의 포트폴리오</h1>
-        <div className="flex space-x-4">
-          <ScrollButton targetId="section1">소개</ScrollButton>
-          <ScrollButton targetId="section2">참여 프로젝트</ScrollButton>
-          <ScrollButton targetId="section3">기술과 경험</ScrollButton>
-        </div>
-      </header>
+    <>
+      <Head>
+        <title>신민철의 포트폴리오</title>
+      </Head>
+      <main className="flex flex-col items-center gap-12 md:gap-16 lg:gap-20">
+        {/* Header Section */}
+        <header className="w-full py-4 bg-gray-200 dark:bg-gray-800 flex justify-between items-center px-4">
+          <h1 className="text-xl font-bold">신민철의 포트폴리오</h1>
+          <div className="flex space-x-4">
+            <ScrollButton targetId="section1">소개</ScrollButton>
+            <ScrollButton targetId="section2">참여 프로젝트</ScrollButton>
+            <ScrollButton targetId="section3">기술과 경험</ScrollButton>
+          </div>
+        </header>
 
       {/* Hero Section */}
       <section id="section1" className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
@@ -143,5 +148,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   );
 }
